@@ -4,4 +4,8 @@
 
 import 'lego-components/dist/lego-components.css'
 
-console.log('Hello Aicherish >>> ')
+import './js/check-channel/index'
+
+import './js/bind-events/index'
+
+console.log('Hello Aicherish Good!!! >>> ')
