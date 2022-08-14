@@ -10,7 +10,7 @@ async function renderPage(ctx, work, pageType) {
   const bodyStyle = propsToStyle(props)
 
   const componentsHtml = await getLegoComponentsHtml(components)
-  await ctx.render('work', {
+  await ctx.renderWithAssets('work', {
     title,
     desc,
     bodyStyle,
